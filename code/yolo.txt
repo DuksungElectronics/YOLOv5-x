@@ -1,0 +1,4 @@
+python detect.py --img 1280 --weights "best.pt" --source "0519-2.png" --save-txt
+python detect.py --source "0519.mp4"  --weights "best.pt" -output.avi
+python evolve.py --data ./data.yaml --img 1280 --batch 8 --epochs 100 --evolve 20 --workers 4 --project "./yolov5\data\images"
+ python train.py --data ./data.yaml --cfg ./models/yolov5x.yaml --weights yolov5x.pt --batch 8 --epochs 100 --name model_x_0517  --project 0517
