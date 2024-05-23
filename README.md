@@ -8,7 +8,7 @@ YOLOv5-x 커스텀 객체 인식 모델 구현
 YOLOv5-x, Linux, Python, Pycharm
 #### 데이터 소개
 ------------------------
-칸쵸, 참깨스틱, 음료수 캔, 감자깡, 고구마깡, 포스틱, 새우탕, 진라면, 프링글스, 튀김우동
+kan, chaps, jin, shrimp, fried, can, pring, postick, sweet potato, potato
 #### 사용 모델
 ------------------------
 YOLOv5-x model
@@ -27,17 +27,17 @@ YOLOv5-x model
   + ![스크린샷 2024-05-21 152738](https://github.com/DuksungElectronics/YOLOv5-x/assets/87466284/1a1a0fae-b1c9-4046-9716-d69f59145ed6)
   + ![스크린샷 2024-05-21 152751](https://github.com/DuksungElectronics/YOLOv5-x/assets/87466284/45cd8c11-42c4-469b-ab75-ef1442977cf7)
     + 출처 : https://github.com/ultralytics/yolov5
+      
 #### 훈련 및 결과
-+ 훈련 parameter
-  + batch size :
-  + epochs : 
-  + lr : 
++ Hyper Parameters
+  + batch size : 32
+  + epochs : 300
+  + lr : 0.01
 + 훈련 환경
-  + 2 way GPU, Linux, Wandb
+  + 2 way GPU NVIDIA GeForce RTX 3090, Linux, Wandb
 + 결과
   + Confusion matrix
  
-
 #### 관련 논문
 + https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003056788
      
