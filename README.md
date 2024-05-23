@@ -33,8 +33,12 @@ YOLOv5-x model
   + epochs : 
   + lr : 
 + 훈련 환경
-  + 2 way GPU, Linux
+  + 2 way GPU, Linux, Wandb
 + 결과
   + Confusion matrix
+ 
+
+#### 관련 논문
++ https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003056788
      
   
